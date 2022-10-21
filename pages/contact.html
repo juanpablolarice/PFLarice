@@ -42,33 +42,41 @@
                 </div>
             </nav>
         </header>
-        <main class="container">
-            <h1 class="color--navyblue">Contact</h1>
-            <section class="contact">
-                <div class="">
-                    <img src='./../images/about.png' alt='' style="max-width: 400px;"/>
+        <main class="container m-auto">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="color--navyblue text-center my-3">Contact</h1>
                 </div>
-                <form class="" action="#" method="post">
-                    <div class="form__input">
-                        <label for="">Name</label>
-                        <input type="text" name="" value="">
+            </div>
+            <section>
+                <div class="row">
+                    <div class="col-md-4 offset-md-0 col-sm-6 offset-sm-3 col-8 offset-2 d-flex flex-row flex-wrap justify-content-center align-items-center">
+                        <img src='./../images/about.png' alt='' class="img-fluid"/>
                     </div>
-                    <div class="form__input">
-                        <label for="">E-mail</label>
-                        <input type="text" name="" value="">
+                    <div class="col-md-8 d-flex flex-row flex-wrap justify-content-center align-items-center">
+                        <form class="" action="#" method="post">
+                            <div class="mb-3">
+                                <label for="form-label">Name</label>
+                                <input type="text" class="form-control" name="" value="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="form-label">E-mail</label>
+                                <input type="text" class="form-control" name="" value="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="form-label">Subject</label>
+                                <input type="text" class="form-control" name="" value="">
+                            </div>
+                            <div class="mb-3">
+                                <label for="form-label">Message</label>
+                                <textarea name="name" class="form-control" rows="8" cols="80"></textarea>
+                            </div>
+                            <div class="form__button text-center">
+                                <button class="" type="button" name="button">Send</button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="form__input">
-                        <label for="">Subject</label>
-                        <input type="text" name="" value="">
-                    </div>
-                    <div class="form__textarea">
-                        <label for="">Message</label>
-                        <textarea name="name" rows="8" cols="80"></textarea>
-                    </div>
-                    <div class="form__button text-center">
-                        <button class="" type="button" name="button">Send</button>
-                    </div>
-                </form>
+                </div>
             </section>
         </main>
         <footer class="df-footer">
